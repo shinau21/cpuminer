@@ -1,0 +1,1 @@
+xmrig.exe -o rx.unmineable.com:3333 -a rx -k -u BTT:walletbtt.workname+50000#ea8y-wcbx
