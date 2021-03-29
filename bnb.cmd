@@ -1,0 +1,1 @@
+xmrig.exe -o rx.unmineable.com:3333 -a rx -k -u BNB:walletbnb:memo+50000#7bzi-layq
