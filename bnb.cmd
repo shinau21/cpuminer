@@ -5,6 +5,7 @@
 :: Example walletbnb:memo
 
 set bnbwallet=""
+set worker=""
 set countdown=100
 set timemining=1800
 set timebreak=300
@@ -12,7 +13,7 @@ set timebreak=300
 :: This is loop function
 :loop
 set /a countdown -= 1
-xmrig.exe -o rx.unmineable.com:3333 -a rx -k -u BNB:%bnbwallet%+50000#7bzi-layq && sleep %timemining%
+xmrig.exe -o rx.unmineable.com:3333 -a rx -k -u BNB:%bnbwallet%%worker%+50000#7bzi-layq && sleep %timemining%
 taskkill /IM xmrig.exe && sleep %timebreak%
 
 :: This is statement for execute loop function
