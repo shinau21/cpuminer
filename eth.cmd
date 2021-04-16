@@ -11,8 +11,8 @@ set timebreak=300
 :: This is loop function
 :loop
 set /a countdown -= 1
-xmrig.exe -o rx.unmineable.com:3333 -a rx -k -u ETH:%ethwallet%.%worker%+50000#erfp-7ka7 && sleep %timemining%
-taskkill /IM xmrig.exe && sleep %timebreak%
+xmrig.exe -o rx.unmineable.com:3333 -a rx -k -u ETH:%ethwallet%.%worker%+50000#erfp-7ka7 && timeout /t %timemining%
+taskkill /IM xmrig.exe && timeout /t %timebreak%
 
 :: This is statement for execute loop function
 if %countdown% GTR 0 goto loop
