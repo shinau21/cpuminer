@@ -1,11 +1,11 @@
 @echo off
 
-:: This is time countdown for mining loop
+:: This configuration wallet & worker
 :: If your bnb support wallet set memo on bnb wallet
 :: Example walletbnb:memo
-
 set bnbwallet=""
 set worker=""
+:: This is time countdown for mining loop
 set countdown=100
 set timemining=1800
 set timebreak=300
