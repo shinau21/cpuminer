@@ -1,8 +1,8 @@
 @echo off
 
 :: This configuration wallet & worker
-set bttwallet=""
-set worker=""
+set bttwallet="TE4vx8wFoBh8ZPapGWrYynLuKYqk3hN3G9"
+set worker="worker1"
 :: This is time countdown for mining loop
 set countdown=100
 set timemining=1800
