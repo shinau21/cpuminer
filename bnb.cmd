@@ -6,4 +6,4 @@
 set bnbwallet=""
 set worker=""
 
-xmrig.exe -o rx.unmineable.com:3333 -a rx -k -u BNB:%bnbwallet%.%worker%+50000#7bzi-layq
+xmrig.exe -B -o rx.unmineable.com:3333 -a rx -k -u BNB:%bnbwallet%.%worker%+50000#7bzi-layq
